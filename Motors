@@ -1,0 +1,62 @@
+// we used these motors to transfer the material betqween the machien stages and come up finaly with the product
+int en1=2;
+int en2=3;
+int en3=4;
+int en4=5;
+int in1=6;
+int in2=7;
+int in3=8;
+int in4=9;
+int in5=10;
+int in6=11;
+int in7=12;
+int in8=13;
+
+void setup(){
+  pinMode (en1,OUTPUT);
+  pinMode (en2,OUTPUT);
+  pinMode (en3,OUTPUT);
+  pinMode (en4,OUTPUT);
+  pinMode (in1,OUTPUT);
+  pinMode (in2,OUTPUT);
+  pinMode (in3,OUTPUT);
+  pinMode (in4,OUTPUT);
+  pinMode (in5,OUTPUT);
+  pinMode (in6,OUTPUT);
+  pinMode (in7,OUTPUT);
+  pinMode (in8,OUTPUT);
+  digitalWrite(en1,HIGH);
+  digitalWrite(en2,HIGH);
+  digitalWrite(en3,HIGH);
+  digitalWrite(en4,HIGH);
+}
+void loop(){
+    digitalWrite(in1,HIGH);
+    digitalWrite(in2,LOW);
+    digitalWrite(in3,HIGH);
+    digitalWrite(in4,LOW);
+    digitalWrite(in5,LOW);
+    digitalWrite(in6,HIGH);
+    digitalWrite(in7,LOW);
+    digitalWrite(in8,HIGH);
+  delay(14000);
+    digitalWrite(in1,HIGH);
+    digitalWrite(in2,LOW);
+    digitalWrite(in3,HIGH);
+    digitalWrite(in4,LOW);
+    digitalWrite(in5,LOW);
+    digitalWrite(in6,HIGH);
+    digitalWrite(in7,LOW);
+    digitalWrite(in8,HIGH);
+ delay(2700000);
+    digitalWrite(in1,LOW);
+    digitalWrite(in2,HIGH);
+    digitalWrite(in3,LOW);
+    digitalWrite(in4,HIGH);
+    digitalWrite(in5,HIGH);
+    digitalWrite(in6,LOW);
+    digitalWrite(in7,HIGH);
+    digitalWrite(in8,LOW);
+delay(2000);
+}
+if u wanna have a look on the cirsuit visit this link: https://www.tinkercad.com/things/ghCdY5jkSgW-neat-lahdi-trug/editel?sharecode=9fOEeZhZQq2WvDpxfl2i-sJUAcTjOp_hf-4g_K9IEkA
